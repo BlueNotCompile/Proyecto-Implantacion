@@ -28,9 +28,10 @@
         <ul class="nav navbar-nav">
 
         
-            <a class="nav-item nav-link" href="<?php echo $url; ?> /estudiante/esccion/inicio.php">inicio</a>
+            <a class="nav-item nav-link" href="<?php echo $url; ?> /estudiante/seccion/inicio.php">inicio</a>
             <a class="nav-item nav-link" href="<?php echo $url; ?> /estudiante/seccion/secciones.php">Secciones Activas</a>
             <a class="nav-item nav-link" href="<?php echo $url; ?> /estudiante/seccion/materias.php">Materias Activas</a>
+            <a class="nav-item nav-link" href="<?php echo $url; ?> /estudiante/seccion/mismaterias.php">Ver Mis Materias</a>
             <a class="nav-item nav-link" href="<?php echo $url; ?> /estudiante/seccion/profesores.php">Profesores</a>
             <a class="nav-item nav-link" href="<?php echo $url; ?> /estudiante/seccion/cerrar.php">Cerrar Sesion</a>
             

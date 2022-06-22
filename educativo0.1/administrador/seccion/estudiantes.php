@@ -98,7 +98,7 @@
     
 ?>
 
-<div class="col-md-3">
+<div class="col-xl-2">
     <div class="card">
 
         <div class="card-header">
@@ -183,7 +183,7 @@
 
 </div>
 
-<div class="col-md-9">
+<div class="col-xl-10">
     <table class="table table-bordered">
         <thead>
             <tr>

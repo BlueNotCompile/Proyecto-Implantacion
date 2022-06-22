@@ -1,4 +1,4 @@
-<?php include("template/cabecera.php");?>
+<?php include("../template/cabecera.php");?>
 
      
         <div class="col-md-12">   
@@ -15,4 +15,4 @@
 
 
 
-      <?php include("template/pie.php");?>
+      <?php include("../template/pie.php");?>

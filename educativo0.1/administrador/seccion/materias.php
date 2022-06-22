@@ -62,9 +62,9 @@
 
     }
 
-    $sentenciaSQL= $conexion->prepare("SELECT `estudiante`.*, `estatus`.*
-    FROM `estudiante` 
-        LEFT JOIN `estatus` ON `estudiante`.`estatus_estudiante` = `estatus`.`id_estatus`;");
+    $sentenciaSQL= $conexion->prepare("SELECT `materia`.*, `estatus`.*
+    FROM `materia` 
+        LEFT JOIN `estatus` ON `materia`.`estatus_materia` = `estatus`.`id_estatus`;");
     $sentenciaSQL->execute();
     $listaMaterias=$sentenciaSQL->fetchAll(PDO::FETCH_ASSOC);
 
